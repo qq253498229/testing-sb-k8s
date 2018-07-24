@@ -17,7 +17,7 @@ public class TestingSbK8sApplication {
   class TestController {
     @GetMapping("/")
     public Mono<String> test() {
-      return just("hello, world");
+      return just("hello, world1");
     }
   }
 
